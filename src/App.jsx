@@ -1,6 +1,7 @@
 import Card from './components/Card';
 
 import ConferenceImg from './images/conference.png';
+import TshirtImg from './images/tshirt-preview.png';
 import Img_01 from './images/bg-01.png';
 import Img_02 from './images/bg-02.png';
 import Img_03 from './images/bg-03.png';
@@ -20,6 +21,7 @@ const Root = () => {
           link='https://ntujour.github.io/forum30/'
           img={ConferenceImg}
         ></Card>
+        <Card title='' date='' link='' img={TshirtImg}></Card>
         <section>
           <div className='left'>
             <Card title='' date='' link='' img={Img_01}></Card>

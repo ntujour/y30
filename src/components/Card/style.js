@@ -47,16 +47,3 @@ export const Date = styled.div`
   font-size: 24px;
   line-height: 32px;
 `;
-
-export const Exps = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-`;
-
-export const ExpItems = styled.div`
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 5px;
-`;
